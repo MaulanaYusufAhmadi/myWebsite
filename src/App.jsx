@@ -1,8 +1,13 @@
+import Navbar from "./components/Navbar";
+
 function App() {
   return (
-    <div className="flex justify-center items-center bg-blue-700 min-h-screen">
-      Hello world
-    </div>
+    <>
+      <Navbar />
+      <div className="flex justify-center items-center">
+        Hello
+      </div>
+    </>
   );
 }
 

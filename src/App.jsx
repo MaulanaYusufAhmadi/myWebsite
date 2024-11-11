@@ -1,13 +1,16 @@
 import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Project from "./components/Project";
 
 function App() {
   return (
-    <>
+    <div className="max-w-screen mx-auto">
       <Navbar />
-      <div className="flex justify-center items-center">
-        Hello
-      </div>
-    </>
+      <Hero />
+      <About />
+      <Project />
+    </div>
   );
 }
 

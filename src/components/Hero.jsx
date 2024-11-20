@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
     <section className="hero">
-      <div className="max-h-screen max-w-screen flex gap-8 flex-row m-20 p-10">
+      <div className="min-h-screen max-w-screen flex gap-8 flex-row m-20 p-10">
         <div className="w-2/3 mx-auto my-auto border-2">
           <h1 className="mb-4 text-4xl font-bold tracking-tight leading-none text-gray-900">
             Hello,

@@ -5,7 +5,7 @@ import Project from "./components/Project";
 
 function App() {
   return (
-    <div className="max-w-screen mx-auto">
+    <div className="mx-auto">
       <Navbar />
       <Hero />
       <About />
